@@ -52,14 +52,18 @@ body {
   margin-left: 125px;
   padding: 0;
   list-style: none;
+  border: 2px solid black;
 }
 
 .main-nav li {
-  text-transform: uppercase;
-}
 
+}
+.main-nav .sub-nav {
+  list-style: none;
+}
 .main-nav a {
-  color: #ffffff;
+  display: block;
+color: #0088cc;
   text-decoration: none;
 }
 
