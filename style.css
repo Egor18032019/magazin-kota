@@ -23,7 +23,7 @@ body {
 .page-header {
   min-height: 490px;
   padding-top: 35px;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -55,15 +55,15 @@ body {
   border: 2px solid black;
 }
 
-.main-nav li {
+.main-nav li {}
 
-}
 .main-nav .sub-nav {
   list-style: none;
 }
+
 .main-nav a {
   display: block;
-color: #0088cc;
+  color: #0088cc;
   text-decoration: none;
 }
 
@@ -73,6 +73,9 @@ color: #0088cc;
 
 .main-nav a:active {
   color: rgba(255, 255, 255, 0.3);
+}
+.sub-nav {
+  display: 
 }
 
 .btn {
@@ -132,15 +135,15 @@ color: #0088cc;
 }
 
 .feature-choice {
-  background: url("../img/feature-1.png") top center no-repeat;
+  background: url("img/feature-1.png") top center no-repeat;
 }
 
 .feature-quality {
-  background: url("../img/feature-2.png") top center no-repeat;
+  background: url("img/feature-2.png") top center no-repeat;
 }
 
 .feature-safety {
-  background: url("../img/feature-3.png") top center no-repeat;
+  background: url("img/feature-3.png") top center no-repeat;
 }
 
 .feature-title {
@@ -178,7 +181,7 @@ color: #0088cc;
   margin: 0;
 }
 
-.cat-reference dd + dt {
+.cat-reference dd+dt {
   margin-top: 70px;
 }
 
@@ -296,7 +299,7 @@ color: #0088cc;
 .feedback-form {
   width: 630px;
   padding-right: 390px;
-  background-image: url("../img/write.jpg");
+  background-image: url("img/write.jpg");
   background-repeat: no-repeat;
   background-position: 100% 40px;
 }
